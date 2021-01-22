@@ -1,2 +1,24 @@
-# Color-Me-Surprised
-A Vue.Js created webpage that produces randomly generated RGB colors with a button click. 
+# color-me-surprised
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
