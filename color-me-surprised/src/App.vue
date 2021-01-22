@@ -1,26 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <color-me-surprised />  
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ColorMeSurprised from './components/ColorMeSurprised.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+        ColorMeSurprised
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 48px;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
