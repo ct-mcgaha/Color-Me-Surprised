@@ -39,10 +39,10 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-   *{
+*{
     padding: 0 !important;
     margin: 0 !important;
-    }
+}
 
 body {
     font-family: Oswald;
@@ -59,8 +59,8 @@ p {
     height: 10vh;
 }
 
-h1 {
-    margin-top: auto;
+div>h1 {
+    margin-top: 10%;
     font-size: 72px;
     padding-bottom: 15%;
     height: 15vh;
@@ -69,15 +69,15 @@ h1 {
 button {
     padding-top: 5%;
     position: relative;
-    height: 360px;
-    width: 360px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     font-size: 72px;
     font-family: Oswald;
     font-weight: bold;
     font-style: italic;
     line-height: 93%;
-    box-shadow: 6px 6px 1px black;
+    box-shadow: 3px 3px 3px black;
 }
 
 div {
@@ -86,7 +86,11 @@ div {
 
 .button:hover {background-color: #eeefff}
 
+.button:focus {
+    outline: none;
+}
+
 .button:active {
-  transform: translateY(4px);
+  transform: translateY(4.5px);
 }
 </style>
